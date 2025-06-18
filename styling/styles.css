@@ -98,3 +98,21 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  .project-title,
+  .project-description {
+    text-align: center !important;
+  }
+
+  .project-description {
+    padding: 0 15px;
+  }
+
+  .primary-link {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0 auto;
+    text-align: center;
+  }
+}
